@@ -1,0 +1,39 @@
+.categories-section{
+    width: 80%;
+    background-color:white;
+    margin-top: 5px;
+    box-shadow: 1px 1px 2px 0 black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-style: inset;
+    padding: 10px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.categories-list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+.title{
+    color:rgb(29, 29, 202);
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+}
+.btn{
+    border:none;
+    height: 25px;
+}
+.categories-header{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:900px) {
+    .categories-list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
